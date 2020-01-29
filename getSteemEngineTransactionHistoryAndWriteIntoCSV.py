@@ -5,7 +5,7 @@ from datetime import date
 conv = lambda i : i or ''
 s = SteemEngineToken()
 today = date.today()
-csv_columns = ['Timestamp', 'Symbol']
+csv_columns = ['Timestamp', 'Symbol', 'Quantity', 'Memo', 'Sender', 'To']
 
 with open('%s_beerlover_overview.csv' % today, 'w', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
