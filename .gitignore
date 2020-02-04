@@ -1,4 +1,9 @@
-
+/mysteemitpython/*
+/env/Include/*
+/env/lib/*
+/env/Scripts/*
+/env/tcl/*
+/env/*
 *.csv
 *.xlsx
 
